@@ -35,11 +35,11 @@ fun main() {
 
     // andere DATENTYPEN: Int, Double, Boolean
 
-    var firstNumber: Int = 10
+    var firstNumber: Double = 10.0
     var secondNumber: Int = 3
 
-    // mit ints rechnen:
-    var resultAddition: Int = firstNumber+secondNumber
+    // mit ints und doubles rechnen:
+    var resultAddition: Double = firstNumber+secondNumber
     var resultMinus = firstNumber-secondNumber
     var resultMal = firstNumber*secondNumber
     var resultDivision = firstNumber/secondNumber
@@ -50,6 +50,7 @@ fun main() {
     println("Resultat Subtraktion: $resultMinus")
     println("Resultat Mal: $resultMal")
     println("Resultat Division: $resultDivision")
+
 
 
 
