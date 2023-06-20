@@ -51,6 +51,14 @@ fun main() {
     println("Resultat Mal: $resultMal")
     println("Resultat Division: $resultDivision")
 
+    // BOOLEAN
+    // boolean initialisieren
+    var isSunShining: Boolean = true
+    println("It's $isSunShining that the sun is shining.")
+    // boolean Aktualisieren:
+    isSunShining = false
+    println("It's $isSunShining that the sun is shining.")
+
 
 
 
