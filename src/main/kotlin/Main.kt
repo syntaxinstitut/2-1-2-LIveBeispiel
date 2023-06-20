@@ -22,6 +22,16 @@ fun main() {
     var fullName = firstName + " " + LAST_NAME
     println("fullName Variable: $fullName")
 
+    // println: mit zeilenumbruch
+    println("Bitte gib dein Geburtsdatum sein und drücke danach Enter")
+
+    // readln ist eine Funktion, die einen in die Konsole eingegebenen String zurückgibt. Dieser String wird in birthdate gespeichert.
+    var birthdate = readln()
+
+    // print: ohne zeilenumbruch, den haben wir manuell mit \n eingefügt:
+    print("Ahaa, dein Geburtstag ist also am $birthdate \n")
+    print("Alles Gute!")
+
 
 
 
