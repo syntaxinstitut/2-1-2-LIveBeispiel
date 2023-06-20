@@ -30,7 +30,27 @@ fun main() {
 
     // print: ohne zeilenumbruch, den haben wir manuell mit \n eingefügt:
     print("Ahaa, dein Geburtstag ist also am $birthdate \n")
-    print("Alles Gute!")
+    println("Alles Gute!")
+
+
+    // andere DATENTYPEN: Int, Double, Boolean
+
+    var firstNumber: Int = 10
+    var secondNumber: Int = 3
+
+    // mit ints rechnen:
+    var resultAddition: Int = firstNumber+secondNumber
+    var resultMinus = firstNumber-secondNumber
+    var resultMal = firstNumber*secondNumber
+    var resultDivision = firstNumber/secondNumber
+
+    println("Erste Zahl: $firstNumber")
+    println("Zweite Zahl: $secondNumber")
+    println("Resultat Addition: $resultAddition")
+    println("Resultat Subtraktion: $resultMinus")
+    println("Resultat Mal: $resultMal")
+    println("Resultat Division: $resultDivision")
+
 
 
 
